@@ -1,0 +1,41 @@
+
+        In React, we use React and ReactDOM API for creating element and manipulating DOM instead of document API
+
+
+        React comes with a Philsophy of writing or manipulating the DOM using React(Javascript), at the end of the React is Javascript
+
+
+
+
+        React and ReactDOM are React Libraries...
+
+        React.createElement() method takes three arguments - i.)The element(u want to create), ii.){ attributes for element like id, class or variables}  iii.) what do you want inside your element (Element's children)
+
+
+
+        'heading' and 'parent' are JS "object" and "React's elements"
+
+
+        //render() method converts js obj into the tag which Browser understands
+
+
+
+
+         <!-- React will overwrite everything inside "root" and replaces with whatever given inside render. -->
+          <div id="root">
+        <!-- React will overwrite everything inside "root" and replaces with whatever given inside render. -->
+        <h1>It will be replaced!!!</h1>
+                 </div>
+
+
+
+
+         <!-- Order of files matters -->
+     <!-- <script src="./App.js"></script>  Refernce error : React is not defined -->
+
+    <!-- CDN Links - React -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- Order of files matters -->
+     <script src="./App.js"></script>
