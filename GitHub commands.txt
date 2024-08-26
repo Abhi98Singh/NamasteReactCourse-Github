@@ -1,0 +1,40 @@
+…or create a new repository on the command line :- 
+
+echo "# NamasteReactCourse" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Abhi98Singh/NamasteReactCourse.git
+git push -u origin main
+
+
+
+…or push an existing repository from the command line :- 
+
+git remote add origin git@github.com:Abhi98Singh/NamasteReactCourse.git
+git branch -M main
+git push -u origin main
+
+
+---------------------------------------------------
+
+		*Namaste React - Akshay*
+created and intialized a git repository and set it up on the github
+
+# git init   //intialize git :- to make our local repo to git repository (local git)
+# git branch -M main   //to create main branch as 'main', default main brach was 'master' 
+-> create a readme file - README.md
+# git add . //to push all the code on local git while commiting
+# git commit -m "episode-1"  //to commit a message while adding the code on local git
+# git remote add origin git@github.com:Abhi98Singh/NamasteReactCourse.git  //to tell local git-repo about 								remote-git repo (github)  { do once }
+# git push -u origin main  //after adding origin(remote git), now push all the code to remote from local git
+
+
+
+//If you add more value in the local repo, to add that file on github
+
+# git add . //to push the new file in local git while commiting
+# git commit -m "episode-2"  //to commit a message while adding the new file on local git
+# git push -u origin main  //push that new file to remote from local git
+
